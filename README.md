@@ -1,13 +1,13 @@
 # Highly Available Web Application Infrastructure (Terraform)
 
-## 📌 Project Overview
+## The Project Overview
 
 This project provisions a highly available AWS networking foundation using Terraform.  
 It is the first phase of building a production-style, multi-AZ web architecture.
 
 ---
 
-## 🏗 Architecture (Phase 1 – Networking Layer)
+## The Architecture (Phase 1 – Networking Layer)
 
 The following resources are provisioned:
 
@@ -22,7 +22,7 @@ Region: **us-east-1 (N. Virginia)**
 
 ---
 
-## 🛠 Tools Used
+## All Tools Used
 
 - Terraform >= 1.5
 - AWS Provider ~> 5.0
