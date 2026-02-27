@@ -1,3 +1,6 @@
+#  aws-cloud-infrastructure
+# Enterprise-grade AWS infrastructure automation with Terraform - demonstrating cloud architecture patterns, resource provisioning, and IaC best practices.
+
 # Highly Available Web Application Infrastructure (Terraform)
 
 ## The Project Overview
@@ -32,7 +35,6 @@ Region: **us-east-1 (N. Virginia)**
 
 ---
 
-## 📂 Project Structure
 ## 📂 Project Structure
 
 aws-ha-webapp-terraform/
