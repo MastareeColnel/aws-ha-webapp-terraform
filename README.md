@@ -33,3 +33,19 @@ Region: **us-east-1 (N. Virginia)**
 ---
 
 ## 📂 Project Structure
+## 📂 Project Structure
+
+aws-ha-webapp-terraform/
+├── provider.tf
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── user_data.sh
+├── .gitignore
+├── README.md
+├── images/
+│   └── architecture.png
+└── screenshots/
+    ├── vpc-created.png
+    ├── ec2-running.png
+    └── web-browser-test.png
