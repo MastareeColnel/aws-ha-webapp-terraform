@@ -107,3 +107,9 @@ Computing Solutions (EC2 Scaling)
 
 Description:
 Scaled EC2 instance capacity by upgrading instance type to improve application performance and support increased workload demands.
+
+### Computing Solutions
+
+Scaled the EC2 instance vertically by upgrading to a larger instance type to improve application performance and handle increased workload demand.
+
+![Computing Solutions Architecture](images/Computing-Solutions.png)
