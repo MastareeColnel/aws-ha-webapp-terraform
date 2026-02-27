@@ -32,7 +32,7 @@ Region: **us-east-1 (N. Virginia)**
 
 ---
 
-## 📂 Project Structure
+
 ## 📂 Project Structure
 
 aws-ha-webapp-terraform/
