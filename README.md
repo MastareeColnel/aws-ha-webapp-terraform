@@ -8,6 +8,7 @@ It is the first phase of building a production-style, multi-AZ web architecture.
 ---
 
 ## The Architecture (Phase 1 – Networking Layer)
+![Architecture Diagram](images/architecture.png)
 
 The following resources are provisioned:
 
