@@ -113,4 +113,4 @@ Scaled EC2 instance capacity by upgrading instance type to improve application p
 Scaled the EC2 instance vertically by upgrading to a larger instance type to improve application performance and handle increased workload demand.
 
 
-![Computing Solutions](image/computing-solutions.png)
+![Computing Solutions](images/computing-solutions.png)
