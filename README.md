@@ -93,10 +93,12 @@ Cloud Economics
 Description:
 Analyzed cloud cost structures and optimization strategies to maximize efficiency while leveraging scalable pay-as-you-go infrastructure.
 
-Connecting VPCs (VPC Peering)
+### Connecting VPCs (VPC Peering)
 
 Description:
 Configured VPC peering to enable secure communication between networks, allowing resources in separate VPCs to interact while maintaining network isolation.
+
+![Computing Solutions](images/connecting-vpcs.png)
 
 Networking Concepts (VPC Configuration)
 
