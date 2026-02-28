@@ -58,6 +58,8 @@ File Systems in the Cloud
 Description:
 Implemented Amazon Web Services EFS to provide a fully managed, scalable file system accessible across multiple instances and availability zones, enabling shared storage for cloud applications.
 
+![Computing Solutions](images/file-systems-in-cloud.png)
+
 Amazon Bedrock Playground
 
 Description:
