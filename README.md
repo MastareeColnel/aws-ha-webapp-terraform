@@ -93,6 +93,8 @@ Databases in Practice (Amazon RDS Multi-AZ)
 Description:
 Migrated to Amazon RDS with multi-AZ deployment and read replicas to automate database management, improve availability, and enhance read performance.
 
+![Computing Solutions](images/databases-in-practice.png)
+
 Cloud Economics
 
 Description:
