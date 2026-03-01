@@ -80,6 +80,8 @@ Core Security Concepts (IAM Least Privilege)
 Description:
 Configured IAM groups and policies following least-privilege principles to restrict resource access and enhance cloud security.
 
+![Computing Solutions](images/core-security-concepts.png)
+
 First NoSQL Database (DynamoDB)
 
 Description:
