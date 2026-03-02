@@ -76,6 +76,8 @@ Auto-Healing and Scaling Applications
 Description:
 Implemented auto-scaling and health-based instance recovery to enable self-healing applications that automatically replace unhealthy instances and scale based on demand.
 
+![Computing Solutions](images/highly-available-web-applications.png)
+
 Core Security Concepts (IAM Least Privilege)
 
 Description:
