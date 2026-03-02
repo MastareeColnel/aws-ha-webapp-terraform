@@ -71,6 +71,7 @@ Description:
 Designed a highly available architecture using multiple availability zones and an Application Load Balancer with health checks to distribute traffic and ensure application resilience.
 
 ![Computing Solutions](images/highly-available-web-applications.png)
+
 Auto-Healing and Scaling Applications
 
 Description:
