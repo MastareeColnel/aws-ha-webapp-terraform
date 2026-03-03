@@ -91,6 +91,8 @@ First NoSQL Database (DynamoDB)
 Description:
 Modeled a serverless NoSQL database using DynamoDB to store and process user behavior data, enabling scalable data storage for analytics and application insights.
 
+![Computing Solutions](images/first-nosql-database.png)
+
 Databases in Practice (Amazon RDS Multi-AZ)
 
 Description:
