@@ -79,87 +79,134 @@ Aligns with infrastructure-as-code best practices
 
 ## 📂 Project Structure
 
-aws-ha-webapp-terraform/
-├── provider.tf
-├── main.tf
-├── variables.tf
-├── outputs.tf
-├── user_data.sh
-├── .gitignore
-├── README.md
-├── images/
-│   └── architecture.png
-└── screenshots/
-    ├── vpc-created.png
-    ├── ec2-running.png
-    └── web-browser-test.png
+##  AWS Hands-on architectural designs.
 
-    ---
-
-##  AWS SimuLearn Lab Screenshots
 File Systems in the Cloud
+Designed scalable shared storage solutions using:
+Amazon Elastic File System
+Distributed file storage for multi-instance environments
 
-Description:
-Implemented Amazon Web Services EFS to provide a fully managed, scalable file system accessible across multiple instances and availability zones, enabling shared storage for cloud applications.
+It demonstrates:
+Shared storage architecture
+State management across scaled compute layers
 
 ![Computing Solutions](images/file-systems-in-cloud.png)
 
 Amazon Bedrock Playground
+I explored foundational AI services using:
+Amazon Bedrock Playground
 
-Description:
-Explored generative AI capabilities using Amazon Bedrock Playground to experiment with foundation models and AI-powered application features in a managed cloud environment.
+It demonstrates:
+Familiarity with managed generative AI services
+Understanding of integrating AI capabilities into cloud-native applications
 
 Highly Available Web Applications
 
-Description:
-Designed a highly available architecture using multiple availability zones and an Application Load Balancer with health checks to distribute traffic and ensure application resilience.
+I designed multi-tier architecture:
+Internet
+→ Load Balancer
+→ Private EC2
+→ Multi-AZ Database
+
+It demonstrates:
+Multi-AZ fault tolerance
+Proper public/private resource placement
+End-to-end production architecture design
 
 ![Computing Solutions](images/highly-available-web-applications.png)
 
 Auto-Healing and Scaling Applications
 
-Description:
-Implemented auto-scaling and health-based instance recovery to enable self-healing applications that automatically replace unhealthy instances and scale based on demand.
+Built resilient application layers using:
+Auto Scaling Groups
+Health checks
+Load balancer target groups
+
+It demonstrates:
+Self-healing infrastructure
+Elastic scaling design
 
 ![Computing Solutions](images/autohealing-and-scaling-applications.png)
 
 Core Security Concepts (IAM Least Privilege)
 
-Description:
-Configured IAM groups and policies following least-privilege principles to restrict resource access and enhance cloud security.
+I applied security best practices using:
+AWS Identity and Access Management
+Role-based access control
+Instance profiles for EC2
+Least privilege policies
+
+It demonstrates:
+Secure cloud identity architecture
+Principle of least privilege implementation
 
 ![Computing Solutions](images/core-security-concepts.png)
 
 First NoSQL Database (DynamoDB)
 
-Description:
-Modeled a serverless NoSQL database using DynamoDB to store and process user behavior data, enabling scalable data storage for analytics and application insights.
+I designed scalable NoSQL solutions using:
+Amazon DynamoDB
+Partition key design
+High throughput configuration
+
+It demonstrates:
+Understanding of NoSQL data modeling
+Fully managed serverless database architecture
 
 ![Computing Solutions](images/first-nosql-database.png)
 
 Databases in Practice (Amazon RDS Multi-AZ)
 
-Description:
-Migrated to Amazon RDS with multi-AZ deployment and read replicas to automate database management, improve availability, and enhance read performance.
+I implemented highly available relational database architecture using:
+Amazon RDS with Multi-AZ deployment
+DB Subnet Groups in private subnets
+Security group isolation
+
+It demonstrates:
+Data layer resilience
+Automatic failover configuration
+Secure database access patterns
 
 ![Computing Solutions](images/databases-in-practice.png)
 
 Cloud Economics
 
-Description:
-Analyzed cloud cost structures and optimization strategies to maximize efficiency while leveraging scalable pay-as-you-go infrastructure.
+I evaluated architectural cost considerations including:
+On-demand vs Reserved Instances
+NAT Gateway cost implications
+Multi-AZ trade-offs
+Scaling vs fixed-capacity compute
+
+It demonstrates:
+Cost-aware architectural decision making
+Balancing availability with financial efficiency
 
 ### Connecting VPCs (VPC Peering)
 
-Description:
-Configured VPC peering to enable secure communication between networks, allowing resources in separate VPCs to interact while maintaining network isolation.
+I designed inter-VPC communication using:
+VPC Peering connections
+Route table updates for bidirectional traffic
+Controlled CIDR planning to prevent overlap
+
+It demonstrates:
+Multi-environment architecture
+Cross-network communication strategy
+Cloud network topology design
 
 ![Computing Solutions](images/connecting-vpcs.png)
 
 Networking Concepts (VPC Configuration)
 
-Description:
-Set up VPC networking components including route tables, internet gateway, and security groups to establish secure and controlled internet connectivity.
+I designed a custom VPC architecture including:
+Public & Private subnets across multiple AZs
+Internet Gateway configuration
+NAT Gateway per Availability Zone
+Route tables & subnet associations
+
+It demonstrates:
+Network segmentation
+Secure traffic flow design
+High availability at the network layer
 
 Computing Solutions (EC2 Scaling)
 
@@ -168,7 +215,17 @@ Scaled EC2 instance capacity by upgrading instance type to improve application p
 
 ### Computing Solutions
 
-Scaled the EC2 instance vertically by upgrading to a larger instance type to improve application performance and handle increased workload demand.
+I designed and deployed scalable EC2-based application environments using:
+Launch Templates
+Auto Scaling Groups
+Application Load Balancers
+Multi-AZ deployment strategies
 
+It demonstrates:
+Horizontal scaling
+Health checks & instance replacement
+Production-ready compute layer design
 
 ![Computing Solutions](images/aws-computing-solutions.png)
+
+These designs collectively demonstrate hands-on experience in architecting scalable, secure, and highly available cloud solutions following AWS best practices and the Well-Architected Framework principles.
