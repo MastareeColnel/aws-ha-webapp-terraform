@@ -3,28 +3,70 @@
 
 # Highly Available Web Application Infrastructure (Terraform)
 
-## The Project Overview
+## Project Overview
 
-This project provisions a highly available AWS networking foundation using Terraform.  
-It is the first phase of building a production-style, multi-AZ web architecture.
+This project provisions a highly available AWS networking foundation using Terraform as Infrastructure as Code (IaC).
+
+It represents Phase 1 of a production-style, multi–Availability Zone web architecture designed following AWS best practices for scalability, fault tolerance, and network segmentation.
+
+The objective of this phase is to establish a secure and extensible networking layer that will support application, load balancing, and database tiers in subsequent phases.
+
+Architecture – Phase 1: Networking Foundation
+
+This phase implements the core networking components required for a resilient cloud environment.
+
+Region
+
+us-east-1 (N. Virginia)
+
+Resources Provisioned
+1. Custom Virtual Private Cloud (VPC)
+
+CIDR Block: 10.0.0.0/16
+
+Provides logical isolation of cloud resources
+
+Enables future subnet segmentation for multi-tier architecture
+
+2. Public Subnets (Multi-AZ)
+
+Two public subnets deployed across two Availability Zones
+
+Designed to host internet-facing resources such as:
+
+Application Load Balancers
+
+Bastion Hosts (if required)
+
+Public-facing services
+
+3. Internet Gateway (IGW)
+
+Attached to the VPC
+
+Enables communication between VPC resources and the internet
+
+4. Public Route Table
+
+Associated with both public subnets
+
+Includes route:
+
+0.0.0.0/0 → Internet Gateway
+
+5. Subnet Associations
+
+Explicit subnet-to-route table associations
+
+Ensures deterministic routing behavior
+
+Aligns with infrastructure-as-code best practices
 
 ---
 
 ## The Architecture (Phase 1 – Networking Layer)
-![Architecture Diagram](images/architecture.png)
+![Architecture Diagram](images/the-architecture.png)
 
-The following resources are provisioned:
-
-- Custom VPC (10.0.0.0/16)
-- Two Public Subnets (across two Availability Zones)
-- Internet Gateway
-- Public Route Table
-- Route to Internet (0.0.0.0/0)
-- Subnet-to-Route Table Associations
-
-Region: **us-east-1 (N. Virginia)**
-
----
 
 ## All Tools Used
 
@@ -51,6 +93,8 @@ aws-ha-webapp-terraform/
     ├── vpc-created.png
     ├── ec2-running.png
     └── web-browser-test.png
+
+    ---
 
 ##  AWS SimuLearn Lab Screenshots
 File Systems in the Cloud
