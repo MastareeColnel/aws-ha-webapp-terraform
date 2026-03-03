@@ -83,10 +83,12 @@ Aligns with infrastructure-as-code best practices
 
 File Systems in the Cloud
 Designed scalable shared storage solutions using:
+
 Amazon Elastic File System
 Distributed file storage for multi-instance environments
 
 It demonstrates:
+
 Shared storage architecture
 State management across scaled compute layers
 
@@ -94,21 +96,25 @@ State management across scaled compute layers
 
 Amazon Bedrock Playground
 I explored foundational AI services using:
+
 Amazon Bedrock Playground
 
 It demonstrates:
+
 Familiarity with managed generative AI services
 Understanding of integrating AI capabilities into cloud-native applications
 
 Highly Available Web Applications
 
 I designed multi-tier architecture:
+
 Internet
 → Load Balancer
 → Private EC2
 → Multi-AZ Database
 
 It demonstrates:
+
 Multi-AZ fault tolerance
 Proper public/private resource placement
 End-to-end production architecture design
@@ -118,11 +124,13 @@ End-to-end production architecture design
 Auto-Healing and Scaling Applications
 
 Built resilient application layers using:
+
 Auto Scaling Groups
 Health checks
 Load balancer target groups
 
 It demonstrates:
+
 Self-healing infrastructure
 Elastic scaling design
 
@@ -131,12 +139,14 @@ Elastic scaling design
 Core Security Concepts (IAM Least Privilege)
 
 I applied security best practices using:
+
 AWS Identity and Access Management
 Role-based access control
 Instance profiles for EC2
 Least privilege policies
 
 It demonstrates:
+
 Secure cloud identity architecture
 Principle of least privilege implementation
 
@@ -145,11 +155,13 @@ Principle of least privilege implementation
 First NoSQL Database (DynamoDB)
 
 I designed scalable NoSQL solutions using:
+
 Amazon DynamoDB
 Partition key design
 High throughput configuration
 
 It demonstrates:
+
 Understanding of NoSQL data modeling
 Fully managed serverless database architecture
 
@@ -158,11 +170,13 @@ Fully managed serverless database architecture
 Databases in Practice (Amazon RDS Multi-AZ)
 
 I implemented highly available relational database architecture using:
+
 Amazon RDS with Multi-AZ deployment
 DB Subnet Groups in private subnets
 Security group isolation
 
 It demonstrates:
+
 Data layer resilience
 Automatic failover configuration
 Secure database access patterns
@@ -172,23 +186,27 @@ Secure database access patterns
 Cloud Economics
 
 I evaluated architectural cost considerations including:
+
 On-demand vs Reserved Instances
 NAT Gateway cost implications
 Multi-AZ trade-offs
 Scaling vs fixed-capacity compute
 
 It demonstrates:
+
 Cost-aware architectural decision making
 Balancing availability with financial efficiency
 
 ### Connecting VPCs (VPC Peering)
 
 I designed inter-VPC communication using:
+
 VPC Peering connections
 Route table updates for bidirectional traffic
 Controlled CIDR planning to prevent overlap
 
 It demonstrates:
+
 Multi-environment architecture
 Cross-network communication strategy
 Cloud network topology design
@@ -198,12 +216,14 @@ Cloud network topology design
 Networking Concepts (VPC Configuration)
 
 I designed a custom VPC architecture including:
+
 Public & Private subnets across multiple AZs
 Internet Gateway configuration
 NAT Gateway per Availability Zone
 Route tables & subnet associations
 
 It demonstrates:
+
 Network segmentation
 Secure traffic flow design
 High availability at the network layer
@@ -216,12 +236,14 @@ Scaled EC2 instance capacity by upgrading instance type to improve application p
 ### Computing Solutions
 
 I designed and deployed scalable EC2-based application environments using:
+
 Launch Templates
 Auto Scaling Groups
 Application Load Balancers
 Multi-AZ deployment strategies
 
 It demonstrates:
+
 Horizontal scaling
 Health checks & instance replacement
 Production-ready compute layer design
