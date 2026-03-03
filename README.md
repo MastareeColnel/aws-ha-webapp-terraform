@@ -228,6 +228,8 @@ Network segmentation
 Secure traffic flow design
 High availability at the network layer
 
+![Computing Solutions](images/networking-concepts.png)
+
 Computing Solutions (EC2 Scaling)
 
 Description:
