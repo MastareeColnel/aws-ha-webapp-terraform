@@ -1,7 +1,5 @@
 #  aws-cloud-infrastructure
-# Enterprise-grade AWS infrastructure automation with Terraform - demonstrating cloud architecture patterns, resource provisioning, and IaC best practices.
-
-# Highly Available Web Application Infrastructure (Terraform)
+# Enterprise-grade AWS infrastructure automation with Terraform - demonstrating cloud architecture patterns, resource provisioning, and IaC best practices. Highly Available Web Application Infrastructure (Terraform)
 
 ## Project Overview
 
