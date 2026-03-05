@@ -79,7 +79,7 @@ Aligns with infrastructure-as-code best practices
 
 ##  AWS Hands-on architectural designs.
 
-File Systems in the Cloud
+### File Systems in the Cloud
 Designed scalable shared storage solutions using:
 
 Amazon Elastic File System
@@ -92,7 +92,7 @@ State management across scaled compute layers
 
 ![Computing Solutions](images/file-systems-in-cloud.png)
 
-Amazon Bedrock Playground
+### Amazon Bedrock Playground
 I explored foundational AI services using:
 
 Amazon Bedrock Playground
@@ -102,7 +102,7 @@ It demonstrates:
 Familiarity with managed generative AI services
 Understanding of integrating AI capabilities into cloud-native applications
 
-Highly Available Web Applications
+### Highly Available Web Applications
 
 I designed multi-tier architecture:
 
@@ -119,7 +119,7 @@ End-to-end production architecture design
 
 ![Computing Solutions](images/highly-available-web-applications.png)
 
-Auto-Healing and Scaling Applications
+### Auto-Healing and Scaling Applications
 
 I built resilient application layers using:
 
@@ -134,7 +134,7 @@ Elastic scaling design
 
 ![Computing Solutions](images/autohealing-and-scaling-applications.png)
 
-Core Security Concepts (IAM Least Privilege)
+### Core Security Concepts (IAM Least Privilege)
 
 I applied security best practices using:
 
@@ -150,7 +150,7 @@ Principle of least privilege implementation
 
 ![Computing Solutions](images/core-security-concepts.png)
 
-First NoSQL Database (DynamoDB)
+### First NoSQL Database (DynamoDB)
 
 I designed scalable NoSQL solutions using:
 
@@ -165,7 +165,7 @@ Fully managed serverless database architecture
 
 ![Computing Solutions](images/first-nosql-database.png)
 
-Databases in Practice (Amazon RDS Multi-AZ)
+### Databases in Practice (Amazon RDS Multi-AZ)
 
 I implemented highly available relational database architecture using:
 
@@ -181,7 +181,7 @@ Secure database access patterns
 
 ![Computing Solutions](images/databases-in-practice.png)
 
-Cloud Economics
+### Cloud Economics
 
 I evaluated architectural cost considerations including:
 
@@ -211,7 +211,7 @@ Cloud network topology design
 
 ![Computing Solutions](images/connecting-vpcs.png)
 
-Networking Concepts (VPC Configuration)
+### Networking Concepts (VPC Configuration)
 
 I designed a custom VPC architecture including:
 
