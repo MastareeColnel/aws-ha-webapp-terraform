@@ -121,7 +121,7 @@ End-to-end production architecture design
 
 Auto-Healing and Scaling Applications
 
-Built resilient application layers using:
+I built resilient application layers using:
 
 Auto Scaling Groups
 Health checks
@@ -228,14 +228,10 @@ High availability at the network layer
 
 ![Computing Solutions](images/networking-concepts.png)
 
-Computing Solutions (EC2 Scaling)
+### Computing Solutions (EC2 Scaling)
 
 Description:
-Scaled EC2 instance capacity by upgrading instance type to improve application performance and support increased workload demands.
-
-### Computing Solutions
-
-I designed and deployed scalable EC2-based application environments using:
+I scaled EC2 instance capacity by upgrading instance type to improve application performance and support increased workload demands. I designed and deployed scalable EC2-based application environments using:
 
 Launch Templates
 Auto Scaling Groups
@@ -248,6 +244,6 @@ Horizontal scaling
 Health checks & instance replacement
 Production-ready compute layer design
 
-![Computing Solutions](images/aws-computing-solutions.png)
+![Computing Solutions](images/computing-solutions(ec2-scaling).png)
 
 These designs collectively demonstrate hands-on experience in architecting scalable, secure, and highly available cloud solutions following AWS best practices and the Well-Architected Framework principles.
