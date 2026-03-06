@@ -20,7 +20,7 @@ us-east-1 (N. Virginia)
 Resources Provisioned
 1. Custom Virtual Private Cloud (VPC)
 
-CIDR Block: 10.0.0.0/16
+CIDR Block: 10.0.0.0/18
 
 Provides logical isolation of cloud resources
 
