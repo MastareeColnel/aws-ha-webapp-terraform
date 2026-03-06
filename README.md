@@ -1,9 +1,13 @@
 #  aws-cloud-infrastructure
 # Enterprise-grade AWS infrastructure automation with Terraform - demonstrating cloud architecture patterns, resource provisioning, and IaC best practices. Highly Available Web Application Infrastructure (Terraform)
 
+![Computing Solutions](images/iaac-terraform-web-application.png)
+
+---
+
 ## Project Overview
 
-This project provisions a highly available AWS networking foundation using Terraform as Infrastructure as Code (IaC).
+This project provisions a highly available AWS networking foundation using Terraform as Infrastructure as Code (IaaC).
 
 It represents Phase 1 of a production-style, multi–Availability Zone web architecture designed following AWS best practices for scalability, fault tolerance, and network segmentation.
 
